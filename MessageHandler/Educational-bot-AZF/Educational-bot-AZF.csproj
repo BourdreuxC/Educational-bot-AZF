@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <RootNamespace>Educational_bot_AZF</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.28.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="3.0.10" />
+    <PackageReference Include="Microsoft.Graph" Version="4.32.0" />
+    <PackageReference Include="Microsoft.Graph.Core" Version="2.0.9" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.45.0" />
+    <PackageReference Include="Microsoft.Identity.Client.Extensions.Msal" Version="2.22.0" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.25.1" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>
