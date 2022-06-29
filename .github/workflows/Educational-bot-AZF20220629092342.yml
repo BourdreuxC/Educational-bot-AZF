@@ -2,7 +2,7 @@ name: Build and deploy .NET Core Function App to Azure functions app
 on:
   push:
     branches:
-    - main
+    - dev
 env:
   AZURE_FUNCTIONAPP_NAME: Educational-bot-AZF20220629092342
   AZURE_FUNCTIONAPP_PACKAGE_PATH: Educational-bot-AZF/publish
