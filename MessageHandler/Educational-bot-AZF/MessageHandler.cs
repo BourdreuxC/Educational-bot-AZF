@@ -41,8 +41,7 @@ namespace Educational_bot_AZF
             string teamId = "1f9e5c34-74c5-48af-ac17-1989f454729f";
 
 
-            var answers = await graphClient.Teams[teamId].Channels.Request().GetAsync();
-            //var messages = await graphClient.Teams[teamId].Channels[channelId].Messages[messageId].Replies.Request().GetAsync();
+            var answers = await graphClient.Teams[teamId].Channels[channelId].Messages[messageId].Replies.Request().GetAsync();
 
 
             return new OkObjectResult(answers);

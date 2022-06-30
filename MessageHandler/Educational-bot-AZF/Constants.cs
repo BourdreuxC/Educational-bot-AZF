@@ -39,5 +39,21 @@ namespace Educational_bot_AZF
         /// Key of configuration corresponding to the authorized scopes of the application using Graph.
         /// </summary>
         public static readonly string[] Scopes = { "User.Read" };
+
+        /// <summary>
+        /// Conn Endpoint for the cosmosDB.
+        /// </summary>
+        public static readonly string CosmosConnStr = "AccountEndpoint=https://dibotaccountdev.documents.azure.com:443/;AccountKey=MkWhCZmRQle8tQbG2ur4XgJHrf4Sty7qvGGjDMJB0hxQzz6mEndN4RXdArZ3CCmrqAZS5Dc0NqSn7eo0NQwuNA==;";
+
+        /// <summary>
+        /// Database name constant.
+        /// </summary>
+        public const string Database = "DiiageBotDatabase";
+
+        /// <summary>
+        /// InstrumentationKey.
+        /// </summary>
+        public const string InstrumentationKey = "3bbb5622-4826-4128-b484-3ae7b337341a";
+
     }
 }
