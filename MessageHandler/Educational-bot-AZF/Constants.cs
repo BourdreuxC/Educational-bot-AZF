@@ -18,7 +18,7 @@ namespace Educational_bot_AZF
         /// <summary>
         /// App registration Id.
         /// </summary>
-        public const string AppId = "0093bf30-36bf-44e1-bb8c-77cd5867d67b";
+        public const string AppId = "bc4ba3e1-6c39-4b50-ba44-6b6b37b7fd4d";
 
         /// <summary>
         /// Tenant Id.
@@ -28,7 +28,7 @@ namespace Educational_bot_AZF
         /// <summary>
         /// App registration secret.
         /// </summary>
-        public const string ClientSecret = "Lbr8Q~MGDrqclhP~bSPTEbtfcorbRFqEcjQKdcn8";
+        public const string ClientSecret = "bsm8Q~Lsbk2MTKWOkFFYzM7TdAvGb-NS0Sa6XchH";
 
         /// <summary>
         /// Graph token scheme.
